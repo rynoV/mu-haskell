@@ -11,7 +11,7 @@ type Article {
   author: Author!
 }
 
-union Writing = Book | Article
+union Writing = Book | Article
 
 type Author {
   id: Int!
